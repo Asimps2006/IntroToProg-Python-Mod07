@@ -1,4 +1,4 @@
-# **The “New Student Information Database” Python Script**
+# **“New Student Info Database” Python Script**
 
 **Dev:** *ASimpson*   
 
@@ -31,6 +31,13 @@ For instance, there are several ways to read the data from a file. Here’s a lo
 Each time you call the readline() method, gets one line of data and advances to the next line. Advancing one line at a time
 is commonly referred to in programming as a cursor. Note that since I closed the file, any additional calls to my read_data()
 function read the same first row of data!
+```
+    data = []
+    file = open(file_name, "r")
+    data.append([file.readline()])  # APPENDING the data to a list, only does 1 line here!!
+    file.close()
+```
+#### *Figure #1 - Python .readlines() Example*
 
 ### *Using a “while” Loop:*
 If you want to get data from additional lines you must call the readline() method repeatedly. One way to call the readline()
@@ -39,6 +46,12 @@ method repeatedly is to use a "while" loop.
 ### *The readlines() function:*
 Python's readlines() function, reads all the lines in a file, and returns a list. The readlines() function is different than 
 the read() function, which reads all the lines in a file and returns a string.
+```
+    file = open(file_name, "r")
+    data = file.readlines()  # <<<REPLACING the data in a list here, this reads everything and is considered slower
+    file.close()
+```
+#### *Figure #2 - Python text file .readlines() example*
 
 ### *Using a “for” Loop:*
 Yet another option to read multiple rows of data using a "for" loop. One small advantage of using the “for” loop is that it 
@@ -49,9 +62,9 @@ Data can be saved in binary format instead of just "plain" text. In Python, this
 in a binary format can obscure the file's content and may reduce the file's size. Important: While the file's content may be 
 more difficult for humans to read, it is not encrypted. So, do not save sensitive data in a binary file and think it is secure!
 
-![Figure 1 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "Python Pickle Example")
+![Figure 4 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "Python Pickle Example")
 
-#### *Figure #1 - Example of Reading “Binary” data using python pickle (from Assignment07)*
+#### *Figure #4 - Example of Reading “Binary” data using python pickle (from Assignment07)*
 
 ## **Structured Error Handling (Try-Except):**
 When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that 
@@ -65,8 +78,8 @@ whenever you think human interaction might cause a problem (figure 1 above).
 ### *Using the Exception Class:*
 "Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception. You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
 
-![Figure #2 - Exception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ExceptionClassExample.png?raw=true "Example of Exception Class")
-#### *Figure #2 - Exception Class*
+![Figure #5 - Exception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ExceptionClassExample.png?raw=true "Example of Exception Class")
+#### *Figure #5 - Exception Class*
 
 
 # **Summary:**
