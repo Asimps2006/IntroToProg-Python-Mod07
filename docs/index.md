@@ -94,6 +94,8 @@ whenever you think human interaction might cause a problem (figure 1 above).
 ![Figure #5 - Exception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ExceptionClassExample.png?raw=true "Example of Exception Class")
 #### *Figure #5 - Exception Class*
 
+In Figure #5 above, I'm showing a slightly different method than what we learned in class in that I'm using the "sys" library to 
+print the line number of the offending code line.  This just helps me figure out later where to address program issues.
 
 # **Summary:**
 In summary, as part of module 7 and assignment 7, I learned all about files and exceptions.  I learned how to read from text files,
