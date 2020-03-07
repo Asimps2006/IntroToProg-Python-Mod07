@@ -51,7 +51,7 @@ more difficult for humans to read, it is not encrypted. So, do not save sensitiv
 
 ![Figure 1 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "Python Pickle Example")
 
-#### Figure #1 - Example of Reading “Binary” data using python pickle (from Assignment07)
+#### *Figure #1 - Example of Reading “Binary” data using python pickle (from Assignment07)*
 
 ## **Structured Error Handling (Try-Except):**
 When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that 
@@ -66,7 +66,7 @@ whenever you think human interaction might cause a problem (figure 1 above).
 "Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception. You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
 
 ![Figure #2 - Exception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ExceptionClassExample.png?raw=true "Example of Exception Class")
-#### Figure #2 - Exception Class
+#### *Figure #2 - Exception Class*
 
 
 # **Summary:**
