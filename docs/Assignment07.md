@@ -49,11 +49,12 @@ You can trap these errors in your programs using a try-except block of code. Doi
 ### Using the Exception Class:
 "Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception.
 You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
-
+![Figure 2 Eception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "tooltip text")
 # Summary:
-In summary, as part of module 7 and assignment 7, I learned all about files and exceptions.   
-I learned how to read from text files, how to read a single character or an entire file all at once.  I learned several different ways to read one full line at a time, which is probably the most common method to read a text file.  I also learned how to write to text files, everything from a single character to a list of strings.  
+In summary, as part of module 7 and assignment 7, I learned all about files and exceptions.  I learned how to read from text files, how to read a single character or an entire file all at once.  I learned several different ways to read one full line at a time, which is probably the most common method to read a text file.  I also learned how to write to text files, everything from a single character to a list of strings.  
+
 I also learned about how to save more complex data to files through pickling and how to manage a group of pickled objects.  Finally, I learned about error handling and how to deal with exceptions raised during the execution of a program.  
+
 In conclusion, I put many of the concepts mentioned above into the “New Student Information Database” python script.  I’m ready to take on chapter 8 where we’ll learn about Object-Oriented programming (OOP).
 
 
