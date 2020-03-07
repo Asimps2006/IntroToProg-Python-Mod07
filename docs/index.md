@@ -1,6 +1,6 @@
 # **“New Student Info DB” Python Script**
 ![New Student Info DB](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/StudentInfoDB.png?raw=true "Python Pickle Example Script!")
-
+:boom::boom::boom:
 **Dev:** *ASimpson*   
 **Date:** *03/06/2020*
 
@@ -64,7 +64,7 @@ the read() function, which reads all the lines in a file and returns a string.
     data = file.readlines()  # <<<Replacing the data in list here
     file.close()
 ```
-#### *Figure #3 - Python text file .readlines() example*
+##### *Figure #3 - Python text file .readlines() example*
 
 ### *Using a “for” Loop:*
 Yet another option to read multiple rows of data using a "for" loop. One small advantage of using the “for” loop is that it 
