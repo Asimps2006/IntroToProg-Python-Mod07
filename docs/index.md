@@ -34,7 +34,8 @@ function read the same first row of data!
 ```
     data = []
     file = open(file_name, "r")
-    data.append([file.readline()]) # Append the data to a list only does 1 line here!
+    # Note: This method only does 1 line here!
+    data.append([file.readline()]) #Append the data to a list
     file.close()
 ```
 #### *Figure #1 - Python .readline() Example*
@@ -47,7 +48,7 @@ method repeatedly is to use a "while" loop.
     data = []
     file = open(file_name, "r")
     while counter < number_of_rows: # <<Set up the while loop
-        data.append([file.readline()])  # APPENDING the data to a list using the while loop
+        data.append([file.readline()]) #Append data using the while loop
         counter += 1
     file.close()
 ```
@@ -59,7 +60,7 @@ the read() function, which reads all the lines in a file and returns a string.
 ```
     file = open(file_name, "r")
     # This method of reading text reads everything in and is considered slower!
-    data = file.readlines()  # <<<Replacing the data in a list here, 
+    data = file.readlines()  # <<<Replacing the data in a list here
     file.close()
 ```
 #### *Figure #3 - Python text file .readlines() example*
