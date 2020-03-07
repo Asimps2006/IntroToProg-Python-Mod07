@@ -1,3 +1,5 @@
+![New Student Info DB](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/StudentInfoDB.png?raw=true "Python Pickle Example Script!")
+
 # **“New Student Info DB” Python Script**
 
 **Dev:** *ASimpson*   
