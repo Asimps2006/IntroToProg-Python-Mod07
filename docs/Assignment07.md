@@ -38,4 +38,14 @@ Yet another option to read multiple rows of data using a "for" loop. One small a
 Data can be saved in binary format instead of just "plain" text.  In Python, this technique is called “pickling”. Storing data in a binary format can obscure the file's content and may reduce the file's size.
 Important: While the file's content may be more difficult for humans to read, it is not encrypted. So, do not save sensitive data in a binary file and think it is secure!
 
+## Structured Error Handling (Try-Except):
+When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program. For example, they may change the name of a data file, causing the file not to be found, or input data that does not fit well with your program's design.
+
+You can trap these errors in your programs using a try-except block of code. Doing so allows you to customize how your program handles errors instead of just letting Python do that for you. It is a good idea to add a try-except block to your programs whenever you think human interaction might cause a problem (figure 1 above).
+
+### Using the Exception Class:
+"Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception.
+You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
+
+
 
