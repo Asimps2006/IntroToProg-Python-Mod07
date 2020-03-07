@@ -38,7 +38,7 @@ function read the same first row of data!
     data.append([file.readline()]) #Append the data to a list
     file.close()
 ```
-#### *Figure #1 - Python .readline() Example*
+##### *Figure #1 - Python .readline() Example*
 
 ### *Using a “while” Loop:*
 If you want to get data from additional lines you must call the readline() method repeatedly. One way to call the readline()
@@ -52,7 +52,7 @@ method repeatedly is to use a "while" loop.
         counter += 1
     file.close()
 ```
-#### *Figure #2 - Python .readline() Example using a "while" loop*
+##### *Figure #2 - Python .readline() Example using a "while" loop*
 
 ### *The readlines() function:*
 Python's readlines() function, reads all the lines in a file, and returns a list. The readlines() function is different than 
@@ -77,7 +77,7 @@ more difficult for humans to read, it is not encrypted. So, do not save sensitiv
 
 ![Figure 4 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "Python Pickle Example")
 
-#### *Figure #4 - Example of Reading “Binary” data using python pickle (from Assignment07)*
+##### *Figure #4 - Example of Reading “Binary” data using python pickle (from Assignment07)*
 
 ## **Structured Error Handling (Try-Except):**
 When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that 
@@ -92,7 +92,7 @@ whenever you think human interaction might cause a problem (figure 1 above).
 "Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception. You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
 
 ![Figure #5 - Exception Class](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ExceptionClassExample.png?raw=true "Example of Exception Class")
-#### *Figure #5 - Exception Class*
+##### *Figure #5 - Exception Class*
 
 In Figure #5 above, I'm showing a slightly different method than what we learned in class in that I'm using the "sys" library to 
 print the line number of the offending code line.  This just helps me figure out later where to address program issues.
