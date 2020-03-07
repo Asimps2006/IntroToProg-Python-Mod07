@@ -49,7 +49,7 @@ Data can be saved in binary format instead of just "plain" text. In Python, this
 in a binary format can obscure the file's content and may reduce the file's size. Important: While the file's content may be 
 more difficult for humans to read, it is not encrypted. So, do not save sensitive data in a binary file and think it is secure!
 
-![Figure 1 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "tooltip text")
+![Figure 1 Binary Data](https://github.com/Asimps2006/IntroToProg-Python-Mod07/blob/master/ReadingBinaryData.png?raw=true "Python Pickle Example")
 
 #### Figure #1 - Example of Reading “Binary” data using python pickle (from Assignment07)
 
