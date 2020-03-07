@@ -37,11 +37,21 @@ function read the same first row of data!
     data.append([file.readline()])  # APPENDING the data to a list, only does 1 line here!!
     file.close()
 ```
-#### *Figure #1 - Python .readlines() Example*
+#### *Figure #1 - Python .readline() Example*
 
 ### *Using a “while” Loop:*
 If you want to get data from additional lines you must call the readline() method repeatedly. One way to call the readline()
 method repeatedly is to use a "while" loop.
+```
+    counter = 0
+    data = []
+    file = open(file_name, "r")
+    while counter < number_of_rows: # <<Set up the while loop
+        data.append([file.readline()])  # APPENDING the data to a list using the while loop
+        counter += 1
+    file.close()
+```
+#### *Figure #2 - Python .readline() Example using a "while" loop*
 
 ### *The readlines() function:*
 Python's readlines() function, reads all the lines in a file, and returns a list. The readlines() function is different than 
@@ -51,7 +61,7 @@ the read() function, which reads all the lines in a file and returns a string.
     data = file.readlines()  # <<<REPLACING the data in a list here, this reads everything and is considered slower
     file.close()
 ```
-#### *Figure #2 - Python text file .readlines() example*
+#### *Figure #3 - Python text file .readlines() example*
 
 ### *Using a “for” Loop:*
 Yet another option to read multiple rows of data using a "for" loop. One small advantage of using the “for” loop is that it 
