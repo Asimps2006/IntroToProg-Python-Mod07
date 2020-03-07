@@ -39,18 +39,20 @@ Data can be saved in binary format instead of just "plain" text.  In Python, thi
 Important: While the file's content may be more difficult for humans to read, it is not encrypted. So, do not save sensitive data in a binary file and think it is secure!
 
 '''
-# Use a "with" loop to open the StudentData.dat file here
+
+#Use a "with" loop to open the StudentData.dat file here
 with (open(file_name, "rb")) as openfile:
-    # Set a while loop here to append all of the dictionaries into a list object
-    # Very similar to the .readlines method used for text files
+    #Set a while loop here to append all of the dictionaries into a list object
+    #Very similar to the .readlines method used for text files
     while True:
-      # Set up a Try/Except block here so that I can get to the end of the .dat binary file
+      #Set up a Try/Except block here so that I can get to the end of the .dat binary file
       try:
-          # Unpickle all of the data in the ,dat file and append it to a list here
+          #Unpickle all of the data in the ,dat file and append it to a list here
           lstTable.append(pickle.load(openfile))
       except EOFError:
-          # break out of the loop if the End of the file is reached
+          #break out of the loop if the End of the file is reached
           break
+          
 '''
 
 #### Figure #1 - Example of Reading “Binary” data using python pickle (from Assignment07)
