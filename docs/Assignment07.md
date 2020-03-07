@@ -33,3 +33,9 @@ Python's readlines() function, reads all the lines in a file, and returns a list
 
 ### Using a “for” Loop:
 Yet another option to read multiple rows of data using a "for" loop. One small advantage of using the “for” loop is that it automatically closes the file when it reaches the end of the file's data.
+
+## Working with Binary Files:
+Data can be saved in binary format instead of just "plain" text.  In Python, this technique is called “pickling”. Storing data in a binary format can obscure the file's content and may reduce the file's size.
+Important: While the file's content may be more difficult for humans to read, it is not encrypted. So, do not save sensitive data in a binary file and think it is secure!
+
+
