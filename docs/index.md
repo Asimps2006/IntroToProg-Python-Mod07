@@ -1,4 +1,4 @@
-# **“New Student Info Database” Python Script**
+# **“New Student Info DB” Python Script**
 
 **Dev:** *ASimpson*   
 
@@ -59,8 +59,9 @@ Python's readlines() function, reads all the lines in a file, and returns a list
 the read() function, which reads all the lines in a file and returns a string.
 ```
     file = open(file_name, "r")
-    # This method of reading text reads everything in and is considered slower!
-    data = file.readlines()  # <<<Replacing the data in a list here
+    # This method of reading text below reads everything in at 
+    # once and is considered slower!
+    data = file.readlines()  # <<<Replacing the data in list here
     file.close()
 ```
 #### *Figure #3 - Python text file .readlines() example*
