@@ -66,6 +66,7 @@ whenever you think human interaction might cause a problem (figure 1 above).
 "Exception" is a built-in python class used to hold information about an error. Python automatically creates an Exception object when an error occurs. The Exception object automatically fills with information about the error that caused the exception. You can capture the Exception object in the except section of a try-except block and extract the error messages as shown below in Figure 2.
 
 Figure 2 Exception Class
+![Figure 2 Exception Class](web address "tooltip text")
 
 # **Summary:**
 In summary, as part of module 7 and assignment 7, I learned all about files and exceptions.  I learned how to read from text files,
