@@ -13,7 +13,7 @@ Specifically, I learned about:
 - How to Read data from text files
 - How to Write Data from text files
 - How to Read/Write more complex data from binary files
-- How to intercept and handle errors during a program’s execution 
+- How to intercept and handle errors during a program’s execution
 
 I also learned a bit more about GitHub web pages, how to use create a blog article to demonstrate python programming concepts.
 
